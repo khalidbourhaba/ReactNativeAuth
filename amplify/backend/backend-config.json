@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"reactnativeauth4481b22a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

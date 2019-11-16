@@ -1,0 +1,36 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reactnativeauth-prod-180744-authRole",
+            "UnauthRoleArn": "arn:aws:iam::911981297123:role/amplify-reactnativeauth-prod-180744-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::911981297123:role/amplify-reactnativeauth-prod-180744-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-reactnativeauth-prod-180744-deployment",
+            "UnauthRoleName": "amplify-reactnativeauth-prod-180744-unauthRole",
+            "StackName": "amplify-reactnativeauth-prod-180744",
+            "StackId": "arn:aws:cloudformation:us-east-2:911981297123:stack/amplify-reactnativeauth-prod-180744/9aeefdf0-0893-11ea-8dc3-0a9fef599330"
+        },
+        "categories": {
+            "auth": {
+                "reactnativeauth4481b22a": {}
+            }
+        }
+    },
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-reactnativeauth-dev-181945-authRole",
+            "UnauthRoleArn": "arn:aws:iam::911981297123:role/amplify-reactnativeauth-dev-181945-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::911981297123:role/amplify-reactnativeauth-dev-181945-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-reactnativeauth-dev-181945-deployment",
+            "UnauthRoleName": "amplify-reactnativeauth-dev-181945-unauthRole",
+            "StackName": "amplify-reactnativeauth-dev-181945",
+            "StackId": "arn:aws:cloudformation:us-east-2:911981297123:stack/amplify-reactnativeauth-dev-181945/48a16ef0-0895-11ea-a828-064e0383f37e"
+        },
+        "categories": {
+            "auth": {
+                "reactnativeauth4481b22a": {}
+            }
+        }
+    }
+}

@@ -5,8 +5,7 @@ npm-debug.*
 *.p12
 *.key
 *.mobileprovision
-amplify/*
-.amplifyrc
+.
 .watchmanconfig
 yarn.lock
 aws-exports.js
@@ -24,3 +23,5 @@ dist/
 node_modules/
 aws-exports.js
 awsconfiguration.json
+
+	
