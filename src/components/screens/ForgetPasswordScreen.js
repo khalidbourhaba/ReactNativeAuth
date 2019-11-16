@@ -216,7 +216,7 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   infoContainer: {
-    position: 'absolute',
+   // position: 'absolute',
     left: 0,
     right: 0,
     height: 200,
