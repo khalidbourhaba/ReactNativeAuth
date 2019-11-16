@@ -184,7 +184,7 @@ export default class SignUpScreen extends React.Component {
           <TouchableWithoutFeedback style={styles.container} onPress={Keyboard.dismiss}>
             <View style={styles.container}>
               {/* App Logo */}
-              <View style={styles.logoContainer}>
+              {/* <View style={styles.logoContainer}>
                 {
                   isHidden ?
                   <Animated.Image 
@@ -195,7 +195,7 @@ export default class SignUpScreen extends React.Component {
                     source={logo} 
                     style={{ opacity: fadeOut, width: 110.46, height: 117 }}/>
                 }
-              </View>
+              </View> */}
               <Container style={styles.infoContainer}>
                 <View style={styles.container}>
                   {/* username section  */}
@@ -205,7 +205,7 @@ export default class SignUpScreen extends React.Component {
                       style={styles.input}
                       placeholder='Username'
                       placeholderTextColor='#adb4bc'
-                      keyboardType={'email-address'}
+                   //   keyboardType={'email-address'}
                       returnKeyType='next'
                       autoCapitalize='none'
                       autoCorrect={false}
@@ -226,7 +226,7 @@ export default class SignUpScreen extends React.Component {
                       autoCapitalize='none'
                       autoCorrect={false}
                       secureTextEntry={true}
-                      // ref={c => this.SecondInput = c}
+                      //ref={c => this.SecondInput = c}
                       ref='SecondInput'
                       onSubmitEditing={(event) => {this.refs.ThirdInput._root.focus()}}
                       onChangeText={value => this.onChangeText('password', value)}
@@ -257,13 +257,13 @@ export default class SignUpScreen extends React.Component {
                   <Item style={styles.itemStyle}>
                     <Ionicons name="ios-call" style={styles.iconStyle} />
                     {/* country flag */}
-                    <View><Text style={{fontSize: 40}}>{flag}</Text></View>
+                    {/* <View><Text style={{fontSize: 40}}>{flag}</Text></View> */}
                     {/* open modal */}
-                    <Ionicons 
+                    {/* <Ionicons 
                       name="md-arrow-dropdown" 
                       style={[styles.iconStyle, { marginLeft: 5 }]}
                       onPress={() => this.showModal()}
-                    />
+                    /> */}
                     <Input
                       style={styles.input}
                       placeholder='+44766554433'
@@ -385,7 +385,7 @@ export default class SignUpScreen extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5059ae',
+    backgroundColor: '#0000FF',
     justifyContent: 'center',
     flexDirection: 'column'
   },
@@ -396,16 +396,18 @@ const styles = StyleSheet.create({
     color: '#fff',
   },
   infoContainer: {
-    position: 'absolute',
+    flex:1,
+    //position: 'absolute',
     left: 0,
     right: 0,
     height: 370,
     bottom: 25,
+    top:20,
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     paddingHorizontal: 30,
-    backgroundColor: '#5059ae',
+    backgroundColor: '#0000FF',
   },
   itemStyle: {
     marginBottom: 10,
@@ -445,7 +447,7 @@ const styles = StyleSheet.create({
   },
   countryStyle: {
     flex: 1,
-    backgroundColor: '#5059ae',
+    backgroundColor: '#0000FF',
     borderTopColor: '#211f',
     borderTopWidth: 1,
     padding: 12,
@@ -454,6 +456,6 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 12,
     alignItems: 'center', 
-    backgroundColor: '#b44666',
+    backgroundColor: '#0000FF',
   }
 })
